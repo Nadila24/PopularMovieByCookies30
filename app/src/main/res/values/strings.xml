@@ -1,3 +1,40 @@
 <resources>
-    <string name="app_name">Popular Movie by Cookies30</string>
+    <string name="app_name">PopularMovieByCookies</string>
+    <string name="title_activity_navigation1">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+<!--    <string name="password">Password</string>-->
+<!--    <string name="username">Username</string>-->
+    <string name="todo">TODO</string>
+    <string name="create_account"><font color="#00ff00">text</font></string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="Home">Kamu telah berhasil login</string>
+    <string name="judul">C O O K I E S</string>
+<!--    <string name="email">Email</string>-->
+<!--    <string name="sign_up">Sign Up</string>-->
+<!--    <string name="log_in">Log In</string>-->
+<!--    <string name="don_t_have_account_sign_up_here">Dont have account? <u><font color='#3498db'>Sign Up Here</font></u></string>-->
+<!--    <string name="succesfully_sign_up">Succesfully Sign Up</string>-->
+    <string name="popularMovies">Popular Movies</string>
+    <string name="jd">judul_id</string>
+    <string name="backdropId">backdropId</string>
+    <string name="nama">Username</string>
+    <string name="simpan">Save</string>
+    <string name="enter_email">Your Email </string>
+    <string name="enter_your_phone">Your Phone Number</string>
+    <string name="alamat_email">Email</string>
+    <string name="no_hp">Phone</string>
+    <string name="sign_up">Simpan</string>
+    <string name="berhasil_di_simpan">Saved Successfully!</string>
+    <string name="enter_your_name">Your Username</string>>
+    <string name="edit_profile">Edit Profile</string>
+
+
+
 </resources>

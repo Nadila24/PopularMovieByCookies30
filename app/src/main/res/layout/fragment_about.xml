@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:fitsSystemWindows="true">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@color/cardview_light_background">
+
+        <RelativeLayout
+            android:id="@+id/rlL"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="About"
+                android:textColor="@android:color/black"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/arafah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_below="@+id/about"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="58dp"
+                android:text="SITI NUR ARAFAH | 09031281823145"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"
+                android:textStyle="bold|italic"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/ajeng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_below="@+id/arafah"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="42dp"
+                android:text="NADILA ANJANI | 09031381823101"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"
+                android:textStyle="bold|italic"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/arin"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ajeng"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="46dp"
+                android:text="CLARINA J. PRATIWI | 09031181823023"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"
+                android:textStyle="bold|italic"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/si"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_below="@+id/arin"
+                android:layout_centerVertical="true"
+android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="56dp"
+                android:text="SISTEM INFORMASI"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold|italic"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/univ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_below="@+id/si"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:text="UNIVERSITAS SRIWIJAYA"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold|italic"
+                android:gravity="center_horizontal" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

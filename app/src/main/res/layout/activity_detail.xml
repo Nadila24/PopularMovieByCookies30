@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+        <ImageView
+            android:id="@+id/detailMovieBackdropPath"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/detailMoviePosterPath"
+            android:layout_width="135dp"
+            android:layout_height="195dp"
+            android:layout_below="@+id/detailMovieBackdropPath"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-50dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/detailMovieTitle"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailMovieBackdropPath"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:layout_toEndOf="@+id/detailMoviePosterPath"
+            android:layout_toRightOf="@+id/detailMoviePosterPath"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/detailMovieOverView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailMoviePosterPath"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:text="TextView"
+            android:lineSpacingExtra="3dp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/detailMovieLanguage"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailMovieTitle"
+            android:text="Text View"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="18dp"
+            android:layout_toEndOf="@+id/detailMoviePosterPath"
+            android:layout_toRightOf="@+id/detailMoviePosterPath"
+            android:textStyle="italic"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailMovieTitle"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/detailMoviePosterPath"
+            android:layout_toRightOf="@+id/detailMoviePosterPath"
+            app:drawableLeftCompat="@drawable/ic_language"/>
+
+        <TextView
+            android:id="@+id/detailMovieRelease"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailMovieLanguage"
+            android:text="Text View"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="18dp"
+            android:layout_toEndOf="@+id/detailMoviePosterPath"
+            android:layout_toRightOf="@+id/detailMoviePosterPath"
+            android:textStyle="italic"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailMovieLanguage"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/detailMoviePosterPath"
+            android:layout_toRightOf="@+id/detailMoviePosterPath"
+            android:textStyle="italic"
+            android:textColor="@android:color/white"
+            app:drawableLeftCompat="@drawable/ic_release"/>
+
+        <TextView
+            android:id="@+id/detailMovieBintang"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailMovieTitle"
+            android:text="Text View"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="18dp"
+            android:layout_toEndOf="@+id/detailMovieLanguage"
+            android:layout_toRightOf="@+id/detailMovieLanguage"
+            android:textStyle="italic"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="25sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailMovieTitle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/detailMovieLanguage"
+            android:layout_toRightOf="@+id/detailMovieLanguage"
+            app:drawableLeftCompat="@drawable/ic_rating"/>
+
+<!--        <TextView-->
+<!--            android:id="@+id/detailMovieGenre"-->
+<!--            android:layout_width="90dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/detailMovieBintang"-->
+<!--            android:text="Text View"-->
+<!--            android:layout_marginLeft="47dp"-->
+<!--            android:layout_marginTop="18dp"-->
+<!--            android:layout_toEndOf="@+id/detailMoviePosterPath"-->
+<!--            android:layout_toRightOf="@+id/detailMoviePosterPath"-->
+<!--            android:textStyle="italic"-->
+<!--            android:textColor="@android:color/white"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="25sp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/detailMovieBintang"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_toEndOf="@+id/detailMoviePosterPath"-->
+<!--            android:layout_toRightOf="@+id/detailMoviePosterPath"-->
+<!--            app:drawableLeftCompat="@drawable/ic_genre"/>-->
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:id="@+id/playTrailerFab"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_margin="95dp"-->
+<!--            android:clickable="true"-->
+<!--            app:srcCompat="@android:drawable/ic_media_play" />-->
+
+</RelativeLayout>
