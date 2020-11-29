@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.RegisterActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@color/cardview_light_background">
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/edt_Prof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/edit_profile"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/name_label"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="58dp"
+        android:text="@string/nama"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:layout_below="@+id/edt_Prof"/>
+
+    <EditText
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/enter_your_name"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_toEndOf="@+id/name_label"
+        android:layout_toRightOf="@+id/name_label"
+        android:layout_below="@+id/edt_Prof"/>
+
+    <TextView
+        android:id="@+id/email_add"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/alamat_email"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:layout_below="@+id/name_label" />
+
+    <EditText
+        android:id="@+id/email_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/enter_email"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/colorPrimaryDark"
+       android:layout_below="@+id/name_text"
+        android:layout_toEndOf="@+id/email_add"
+        android:layout_toRightOf="@+id/email_add"/>
+
+    <TextView
+        android:id="@+id/no_add"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/no_hp"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:layout_below="@+id/email_add" />
+
+    <EditText
+        android:id="@+id/phone_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/enter_your_phone"
+        android:inputType="phone"
+        android:textColorHint="@color/colorPrimaryDark"
+       android:layout_below="@+id/email_text"
+        android:layout_toEndOf="@+id/no_add"
+        android:layout_toRightOf="@+id/no_add"/>
+
+
+    <Button
+        android:id="@+id/rv_klik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:elevation="10dp"
+        android:layout_below="@+id/no_add"
+        android:text="Save"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginBottom="50dp">
+
+    </Button>
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>
